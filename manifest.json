@@ -1,0 +1,15 @@
+{
+    "manifest_version":2,
+    "name":"Clean Link",
+    "description": "Limpa link de sites tirando protetores e alguns encurtadores",
+    "version":"0.1",
+    "browser_action":{
+        "default_icon":"icon.png",
+        "default_popup":"cleanlinks.html"
+    },
+    "content_scripts":[{
+        "matches": [ "http://*/*", "https://*/*"],
+        "js":["jquery.min.js","clean_links.js"]
+        
+    }]
+}
