@@ -1,15 +1,22 @@
 {
     "manifest_version":2,
-    "name":"Clean Link",
-    "description": "Limpa link de sites tirando protetores e alguns encurtadores",
+    
+    "name":"Skip",
+    
+    "description": "Pula paginas",
+    
     "version":"0.1",
+    
     "browser_action":{
-        "default_icon":"icon.png",
-        "default_popup":"cleanlinks.html"
+        "name":"Skip",
+		"default_popup":"skip.html",
+        "default_icon":"icon.png"       		
     },
+    
     "content_scripts":[{
         "matches": [ "http://*/*", "https://*/*"],
-        "js":["jquery.min.js","clean_links.js"]
+        "js":["jquery.min.js","skip.js"]
         
-    }]
+    }],
+    "permissions":["activeTab","tabs"]
 }
