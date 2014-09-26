@@ -5,8 +5,8 @@ if(window.location.href.indexOf("http://www.animakai.me/prot.php?")>=0){
 }
 else if(window.location.href.indexOf("http://adf.ly/")>=0){
 	
-	#solução de https://gist.github.com/aslian
-	#https://gist.github.com/alexdrk/6113685
+//	 solução de https://gist.github.com/aslian
+//	 https://gist.github.com/alexdrk/6113685
 	
 	var adflyLink, lnk;
 	var g_cnt = 0;
