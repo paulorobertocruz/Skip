@@ -8,8 +8,9 @@ Esta extenção tem o objetovo de pular paginas que atrasam o fluxo da navegaç�
 #####Funciona com:
 
 *animakai.me/prot.php?*
+*adf.ly*
 
 #####To Do:
 
-*adf.ly*
+*sh.st*
 
