@@ -7,7 +7,7 @@ Esta extenção tem o objetovo de pular paginas que atrasam o fluxo da navegaç�
 
 #####Funciona com:
 
-**www.animakai.me**
+*animakai.me/prot.php?*
 
 #####To Do:
 
